@@ -1,0 +1,11 @@
+##Getting and Cleaning Project README##
+
+The R script, "run_analysis.R", does the following:
+Download the dataset
+Loads activity and feature data
+Loads both the training and test datasets, keeping columns with either mean or standard deviation 
+Loads the activity and subject data for each dataset and merges those columns with the dataset
+Merges the two datasets "training data" & "test data"
+Converts the activity and feature columns into factors
+Creates a tidy dataset that consists of the average (mean) value of each variable for each feature and activity
+The end result is shown in the file tidy.txt
